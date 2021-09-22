@@ -1,5 +1,5 @@
 # Load elections data from postgresql in to pandas dataframe
-1. Download (sql dump)[https://observer.mos.ru/all/]
+1. Download sql dump from https://observer.mos.ru/all/
 2. unzip dump
 ```
 gunzip observer-20210921_143000.sql.gz
@@ -38,4 +38,7 @@ psql -U postgres observer < observer-20210921_143000.sql
 ```
 exit
 ```
-10. open jupyter notebook, define host ip, connect to psql and load data to pandas dataframe
+10. open jupyter notebook, define host ip, connect to psql and load data to pandas dataframe   
+
+Data overview:   
+https://github.com/kbespalov/voting2021/tree/6b47e213987f953a573e3d48c6159914da679e77
